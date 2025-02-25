@@ -22,7 +22,10 @@ function App() {
       <h2>Тестовое задание Selsup</h2>
       <p>
         Текст задания находится{' '}
-        <a href="/Тестовое_задание_Frontend.pdf" rel="noreferrer">
+        <a
+          href={`${import.meta.env.BASE_URL}Тестовое_задание_Frontend.pdf`}
+          rel="noreferrer"
+        >
           {' '}
           тут
         </a>
